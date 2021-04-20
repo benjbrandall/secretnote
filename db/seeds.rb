@@ -1,0 +1,15 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+
+Note.create(body: "Don't let anyone hear about this, but I once smoked an entire reefer out by the lake while I was supposed to be looking after the kid.", is_destroyed: false)
+Note.create(body: "I'm lost beyond the annals of time")
+Note.create(body: "In his 1990 article \"Entirely Unpredisposed,\" Martin Kottmeyer suggested that Barney's memories revealed under hypnosis might have been influenced by an episode of the science fiction television show \"The Outer Limits\" titled \"The Bellero Shield\" which was broadcast about two weeks before Barney's first hypnotic session. The episode featured an extraterrestrial with large eyes who says, \"In all the universes, in all the unities beyond the universes, all who have eyes have eyes that speak.\" The report from the regression featured a scenario that was in some respects similar to the television show.")
+Note.create(body: "I was present at the National UFO Conference in New York City in 1980, at which Betty presented some of the UFO photos she had taken. She showed what must have been well over two hundred slides, mostly of blips, blurs, and blobs against a dark background. These were supposed to be UFOs coming in close, chasing her car, landing, etc... After her talk had exceeded about twice its allotted time, Betty was literally jeered off the stage by what had been at first a very sympathetic audience. This incident, witnessed by many of UFOlogy's leaders and top activists, removed any lingering doubts about Betty's credibility—she had none.")
+Note.create(body: "After the hypnosis sessions, Simon speculated that Barney's recollection of the UFO encounter was possibly a fantasy inspired by Betty's dreams. Simon thought it was the most reasonable and consistent explanation. Barney rejected this idea, noting that while their memories were consistent in some regards, there were also portions of both their narratives that were unique to each. Barney was now ready to accept that they had been abducted by the occupants of a UFO, though he never embraced it as fully as Betty did.")
+Note.create(body: "Betty exhibited considerable emotional distress when recounting her capture and examination; Simon ended one session early because tears were flowing down her cheeks.")
+Note.create(body: "Simon began hypnotizing the Hills on January 4, 1964. He hypnotized Betty and Barney several times each, and the sessions lasted until June 6, 1964. Simon conducted the sessions on Barney and Betty separately, so they could not overhear one another's recollections. At the end of each session he reinstated amnesia.")
